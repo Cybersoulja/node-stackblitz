@@ -1,0 +1,27 @@
+title: My Jekyll Site
+email: your-email@example.com
+description: >-
+  A simple Jekyll site deployed with GitHub Pages.
+baseurl: ""
+url: ""
+twitter_username: jekyllrb
+github_username: jekyll
+
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
